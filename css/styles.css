@@ -1,0 +1,98 @@
+/* ===============================
+   Author: Abhishek
+   Date:   03 August 2022
+   
+   Notes:
+   Hand coded to build a website
+   portfolio from Scratch with 
+   HTML & CSS by Abhishek
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+    background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+    color: #4b2707;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+ 
+.container {
+    width: 924px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Header */
+
+#nav {
+    background: url('../images/bg-tile-yellow.gif') top left repeat;
+}
+
+header nav {
+    text-align: center;
+ }
+ 
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 100px;
+}
+ 
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Noto Sans';
+}
+
+/* Self Potrait */
+
+#feature-image, #myself {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#myself h1 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    margin-top: 180px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+#myself h2.name {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 68px;
+    margin-top: 0;
+    padding: 0 0 10px 30px;
+    margin-bottom: 10px;
+    background: url('../images/header-divider.png') bottom left no-repeat;
+    background-position-x: 30px;
+}
+
+#myself p {
+    width: 650px;
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    padding: 0 40px 0 30px;
+    margin-top: 10px;
+}
