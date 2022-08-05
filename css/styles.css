@@ -80,6 +80,7 @@ header nav ul li a {
 }
 
 #myself h2.name {
+    color: #d17f38;
     font-family: Coolvetica_b,Helvetica,sans-serif;
     font-size: 68px;
     margin-top: 0;
@@ -96,3 +97,68 @@ header nav ul li a {
     padding: 0 40px 0 30px;
     margin-top: 10px;
 }
+
+/* Projects */
+
+#projects h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+}
+
+.project-1 {
+    width: 382px;
+    float: left;
+    padding-left: 80px;
+    background: url('../images/banking-project.png') top left no-repeat;
+    background-size: 75px;
+    margin-bottom: 30px;
+}
+
+.project-2 {
+    width: 382px;
+    float: right;
+    padding-left: 80px;
+    background: url('../images/AQI-image.png') top left no-repeat;
+    background-size: 110px;
+    background-position-y: 10px;
+    background-position-x: -15px;
+    margin-bottom: 20px;
+}
+
+.project-3 {
+    width: 382px;
+    float: right;
+    margin-bottom: 30px;
+    padding-left: 80px;
+    background: url('../images/customer.png') top left no-repeat;
+    background-size: 75px;
+}
+
+.project-4 {
+    width: 382px;
+    float: inline-end;
+    padding-left: 80px;
+    background: url('../images/profit.jpg') top left no-repeat;
+    background-size: 75px;
+    background-position-y: 165px;
+}
+
+#projects h3 {
+    font-size: 24px;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
