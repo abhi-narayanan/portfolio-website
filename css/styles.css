@@ -13,6 +13,7 @@
    Orange:			#d17f38
    Yellow:			#e8c04f
    Brown:			#4b2707
+   Orange-Yellow    #f0ca07
    =============================== */
 
 /* General */
@@ -110,16 +111,17 @@ header nav ul li a {
 }
 
 .project-1 {
-    width: 382px;
+    width: 378px;
     float: left;
     padding-left: 80px;
     background: url('../images/banking-project.png') top left no-repeat;
     background-size: 75px;
     margin-bottom: 30px;
+    border-left: dashed 4px #d17f38;
 }
 
 .project-2 {
-    width: 382px;
+    width: 378px;
     float: right;
     padding-left: 80px;
     background: url('../images/AQI-image.png') top left no-repeat;
@@ -127,29 +129,40 @@ header nav ul li a {
     background-position-y: 10px;
     background-position-x: -15px;
     margin-bottom: 20px;
+    border-left: dashed 4px #d17f38;
 }
 
 .project-3 {
-    width: 382px;
+    width: 378px;
     float: right;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding-left: 80px;
     background: url('../images/customer.png') top left no-repeat;
-    background-size: 75px;
+    background-size: 70px;
+    background-position-x: 5px;
+    border-left: dashed 4px #d17f38;
 }
 
 .project-4 {
-    width: 382px;
-    float: inline-end;
+    width: 378px;
+    float: right;
     padding-left: 80px;
     background: url('../images/profit.jpg') top left no-repeat;
-    background-size: 75px;
-    background-position-y: 165px;
+    background-size: 70px;
+    background-position-x: 5px;
+    border-left: dashed 4px #d17f38;
 }
 
 #projects h3 {
     font-size: 24px;
 }
+
+#projects p {
+    font-size: 16px;
+}
+
+/* Footer */
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
