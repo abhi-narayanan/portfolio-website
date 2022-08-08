@@ -14,6 +14,7 @@
    Yellow:			#e8c04f
    Brown:			#4b2707
    Orange-Yellow    #f0ca07
+   Gray             #a7a7a7
    =============================== */
 
 /* General */
@@ -109,23 +110,24 @@ header nav ul li a {
     font-size: 52px;
     margin-bottom: 40px;
     padding-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 110px;
     background: url('../images/yellow-line.JPG') bottom left no-repeat;
     background-size: 200px;
 }
 
 .project-1 {
-    width: 378px;
+    width: 373px;
     float: left;
     padding-left: 80px;
     background: url('../images/banking-project.png') top left no-repeat;
     background-size: 75px;
     margin-bottom: 60px;
     border-left: dashed 4px #d17f38;
+    padding-right: 5px;
 }
 
 .project-2 {
-    width: 378px;
+    width: 373px;
     float: right;
     padding-left: 80px;
     background: url('../images/AQI-image.png') top left no-repeat;
@@ -134,22 +136,24 @@ header nav ul li a {
     background-position-x: -15px;
     margin-bottom: 50px;
     border-left: dashed 4px #d17f38;
+    padding-right: 5px;
 }
 
 .project-3 {
-    width: 378px;
+    width: 373px;
     float: right;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 50px;
     padding-left: 80px;
     background: url('../images/customer.png') top left no-repeat;
     background-size: 70px;
     background-position-x: 5px;
     border-left: dashed 4px #d17f38;
+    padding-right: 5px;
 }
 
 .project-4 {
-    width: 378px;
+    width: 373px;
     float: right;
     margin-bottom: 40px;
     padding-left: 80px;
@@ -157,17 +161,105 @@ header nav ul li a {
     background-size: 70px;
     background-position-x: 5px;
     border-left: dashed 4px #d17f38;
+    padding-right: 5px;
 }
 
 #projects h3 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
-#projects p {
-    font-size: 16px;
+p {
+    font-size: 18px;
 }
 
 /* Footer */
+
+/* Experience */
+
+#experience {
+    width: 428px;
+    float: left;
+    margin-right: 30px;
+}
+
+#about-me h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 52px;
+    padding-top: 110px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 20px;
+}
+
+#experience h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    padding-top: 10px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+#experience h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#about-me .exp h3 {
+    padding: 0;
+    margin: 0;
+}   
+
+.place-date {
+    font-size: 18px;
+    color: #a7a7a7;
+}
+
+.post {
+    font-size: 24px;
+    color: #d17f38;
+    
+}
+
+.exp, .intern {
+    border-left: dashed 4px #d17f38;
+    padding-left: 10px;
+}
+
+/* Education */
+
+#education {
+    width: 428px;
+    float: left;
+    margin-left: 30px;
+}
+
+#education h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    padding-top: 10px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.edu {
+    border-left: dashed 4px #d17f38;
+    padding-left: 10px;
+}
+
+.edu h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.edu h4 {
+    font-size: 24px;
+    margin: 0;
+    color: #d17f38;
+}
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
