@@ -225,6 +225,7 @@ p {
 .exp, .intern {
     border-left: dashed 4px #d17f38;
     padding-left: 10px;
+    margin-bottom: 50px;
 }
 
 /* Education */
@@ -248,6 +249,7 @@ p {
 .edu {
     border-left: dashed 4px #d17f38;
     padding-left: 10px;
+    margin-bottom: 50px;
 }
 
 .edu h3 {
