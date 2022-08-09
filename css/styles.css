@@ -216,10 +216,10 @@ p {
     color: #a7a7a7;
 }
 
-.post {
-    font-size: 24px;
+#experience h4 {
+    font-size: 22px;
     color: #d17f38;
-    
+    margin: 10px 0 0 0;
 }
 
 .exp, .intern {
@@ -228,6 +228,10 @@ p {
     margin-bottom: 50px;
 }
 
+#experience p {
+    margin: 0;
+    font-size: 16px;
+}
 /* Education */
 
 #education {
@@ -258,9 +262,13 @@ p {
 }
 
 .edu h4 {
-    font-size: 24px;
+    font-size: 22px;
     margin: 0;
     color: #d17f38;
+}
+
+.place-date p {
+    font-size: 16px;
 }
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
