@@ -197,7 +197,7 @@ p {
     padding-top: 10px;
     background: url('../images/yellow-line.JPG') bottom left no-repeat;
     background-size: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: 10px;
 }
 
@@ -245,7 +245,7 @@ p {
     padding-top: 10px;
     background: url('../images/yellow-line.JPG') bottom left no-repeat;
     background-size: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: 10px;
 }
 
@@ -268,6 +268,24 @@ p {
 
 #education p {
     font-size: 16px;
+}
+
+
+/* Skills */
+
+#skills h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    padding-top: 110px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#logos img {
+    margin: 16px 0 5px 29px;
+    padding: 0;
 }
 
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
