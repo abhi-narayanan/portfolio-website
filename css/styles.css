@@ -212,7 +212,6 @@ p {
 }   
 
 .place-date {
-    font-size: 18px;
     color: #a7a7a7;
 }
 
@@ -267,7 +266,7 @@ p {
     color: #d17f38;
 }
 
-.place-date p {
+#education p {
     font-size: 16px;
 }
 
