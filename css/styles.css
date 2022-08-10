@@ -189,6 +189,7 @@ p {
     background: url('../images/yellow-line.JPG') bottom left no-repeat;
     background-size: 200px;
     padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #experience h2 {
