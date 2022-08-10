@@ -288,6 +288,45 @@ p {
     padding: 0;
 }
 
+/* Honours and Publications */
+
+#honours, #publication {
+    width: 428px;
+    float: left;
+    margin-right: 30px;
+}
+
+#honours-publications h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    padding-top: 85px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#honours-publications h3 {
+    font-size: 26px;
+    margin: 0;
+    color: #d17f38;
+}
+
+.hon, .pub {
+    border-left: dashed 4px #d17f38;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.pub h4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.pub a {
+    font-size: 18px;
+}
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
 .clearfix:after {
