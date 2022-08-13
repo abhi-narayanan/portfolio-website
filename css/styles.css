@@ -79,13 +79,18 @@ header nav ul li a {
 #social {
     float: right;
     position: relative;
-    left: -300px;
+    left: -430px;
+}
+
+#social img {
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #myself h1 {
     font-family: Coolvetica_b,Helvetica,sans-serif;
     font-size: 48px;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 0;
     padding-left: 30px;
 }
