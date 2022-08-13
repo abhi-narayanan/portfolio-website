@@ -76,6 +76,12 @@ header nav ul li a {
     float: left;
 }
 
+#social {
+    float: right;
+    position: relative;
+    left: -300px;
+}
+
 #myself h1 {
     font-family: Coolvetica_b,Helvetica,sans-serif;
     font-size: 48px;
@@ -327,6 +333,23 @@ p {
 
 .pub a {
     font-size: 18px;
+}
+
+/* Hobbies */
+
+#hobbies h2 {
+    font-family: Coolvetica_b,Helvetica,sans-serif;
+    font-size: 48px;
+    padding-top: 50px;
+    background: url('../images/yellow-line.JPG') bottom left no-repeat;
+    background-size: 200px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#hobbies img {
+    margin: 16px 0 50px 29px;
+    padding: 0;
 }
 /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
 
