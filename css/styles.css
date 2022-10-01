@@ -119,7 +119,7 @@ header nav ul li a {
 #projects h2 {
     font-family: Coolvetica_b,Helvetica,sans-serif;
     font-size: 52px;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
     padding-bottom: 30px;
     padding-top: 110px;
     background: url('../images/yellow-line.JPG') bottom left no-repeat;
@@ -130,9 +130,10 @@ header nav ul li a {
     width: 373px;
     float: left;
     padding-left: 80px;
-    background: url('../images/banking-project.png') top left no-repeat;
-    background-size: 75px;
-    margin-bottom: 60px;
+    background: url('../images/profit.jpg') top left no-repeat;
+    background-size: 70px;
+    background-position-x: 5px;
+    margin-bottom: 35px;
     border-left: dashed 4px #d17f38;
     padding-right: 5px;
 }
@@ -142,21 +143,21 @@ header nav ul li a {
     float: right;
     padding-left: 80px;
     background: url('../images/AQI-image.png') top left no-repeat;
-    background-size: 110px;
+    background-size: 120px;
     background-position-y: 10px;
-    background-position-x: -15px;
-    margin-bottom: 50px;
+    background-position-x: -20px;
+    margin-bottom: 30px;
     border-left: dashed 4px #d17f38;
     padding-right: 5px;
 }
 
 .project-3 {
     width: 373px;
-    float: right;
+    float: left;
     margin-top: 30px;
     margin-bottom: 50px;
     padding-left: 80px;
-    background: url('../images/customer.png') top left no-repeat;
+    background: url('../images/customer-reviews.png') top left no-repeat;
     background-size: 70px;
     background-position-x: 5px;
     border-left: dashed 4px #d17f38;
@@ -165,10 +166,10 @@ header nav ul li a {
 
 .project-4 {
     width: 373px;
-    float: right;
+    float: left;
     margin-bottom: 40px;
     padding-left: 80px;
-    background: url('../images/profit.jpg') top left no-repeat;
+    background: url('../images/customer.png') top left no-repeat;
     background-size: 70px;
     background-position-x: 5px;
     border-left: dashed 4px #d17f38;
@@ -180,9 +181,16 @@ header nav ul li a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
+.project-3 h3 {
+    margin-bottom: 45px;
+}
+
+.project-2 h3 {
+    margin-bottom: 45px;
+}
 /* Footer */
 
 /* Experience */
@@ -337,7 +345,7 @@ p {
 }
 
 .pub a {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Hobbies */
